@@ -7,7 +7,7 @@
 
 int main(void){
 
-	int n = 12346;
+	int n = 98;
 
 	int lastDigit = n % 10;
 
