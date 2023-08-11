@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int n;
+	int n = 4848;
 
 	if (n > 0)
 	printf("%d is positive\n", n);
