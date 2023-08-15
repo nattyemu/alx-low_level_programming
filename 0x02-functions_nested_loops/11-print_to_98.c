@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * print_to_98 - display up to 98
 * @n: up to 98
@@ -7,27 +8,36 @@
 */
 void print_to_98(int n)
 {
-int i;
-if (n > 98)
+if (n <= 98)
 {
-for (i = n; i >= 98; i--)
+for (; n <= 98; n++)
 {
-_putchar(i + '0');
-if (i == 98)
-continue;
-_putchar(44);
+if (n == 98)
+{
+printf("%d", n);
+printf("\n");
+break;
 }
+else
+{
+printf("%d, ", n);
 }
-else if (n < 98)
-{
-for (i = n; i <= 98; i++)
-{
-_putchar(i + '0');
-if (i == 98)
-continue;
-_putchar(44);
 }
 }
 else
-_putchar(57);
+{
+for (; n >= 98; n--)
+{
+if (n == 98)
+{
+printf("%d", n);
+printf("\n");
+break;
+}
+else
+{
+printf("%d, ", n);
+}
+}
+}
 }
