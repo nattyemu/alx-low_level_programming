@@ -1,5 +1,5 @@
  #include "main.h"
-/*
+/**
 * add - time table
 * @x: first number
 * @y: second number

@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
 * print_to_98 - display up to 98
 * @n: up to 98
 *
