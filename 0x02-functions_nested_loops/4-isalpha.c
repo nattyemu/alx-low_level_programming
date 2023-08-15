@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
 * _isalpha - to check alphabet
 * @c: to be checked
 * Return: 1 lowercase or 0 everything else

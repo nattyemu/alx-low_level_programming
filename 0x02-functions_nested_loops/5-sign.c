@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
 * print_sign - to check alphabet
 * @n: to be checked
 * Return: 1 to positive or 0 to zero -1 to negative

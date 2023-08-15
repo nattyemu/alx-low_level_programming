@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
 * times_table - time table
 *
 * Return: void
