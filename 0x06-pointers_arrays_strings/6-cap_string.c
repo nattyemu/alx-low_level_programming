@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * cap_string - function that capitalize words of a string
+ * cap_string - function that capitalizes all words of a string
  *
  * @str: a string to be capitalized
  *
@@ -13,7 +13,7 @@ char *cap_string(char *str)
 int id = 0;
 while (str[id])
 {
-while ((str[id] >= 'a' && str[id] <= 'z'))
+while (!(str[id] >= 'a' && str[id] <= 'z'))
 id++;
 if (str[id - 1] == ' ' ||
 str[id - 1] == '\t' ||
