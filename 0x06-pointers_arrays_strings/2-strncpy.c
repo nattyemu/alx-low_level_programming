@@ -16,7 +16,7 @@ while (src[id++])
 len++;
 for (id = 0; src[id] && id < n; id++)
 dest[id] = src[id];
-for (id = len; ld < n; id++)
+for (id = len; id < n; id++)
 dest[id] = '\0';
 return (dest);
 }
