@@ -14,7 +14,7 @@ int id = 0;
 int len = 0;
 while (dest[id++])
 len++;
-for (id = 0; arc[id] && id < n; id++)
+for (id = 0; src[id] && id < n; id++)
 dest[len++] = src[id];
 return (dest);
 }
