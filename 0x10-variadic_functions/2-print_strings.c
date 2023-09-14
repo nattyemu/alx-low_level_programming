@@ -1,6 +1,6 @@
-#include "varladic_functions.h"
+#include "variadic_functions.h"
 #include <stdio.h>
-#include <stdang.h>
+#include <stdarg.h>
 
 /**
  * print_strings - Prints strings, followed by a new line 1
