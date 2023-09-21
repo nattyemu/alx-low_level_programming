@@ -1,6 +1,6 @@
 global main
 extern printf
-main;
+main:
 mov edi, format
 xor eax, eax
 call printf
