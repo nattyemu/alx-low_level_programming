@@ -24,7 +24,7 @@ new_node->next = NULL;
 }
 else
 new_node->next = *head;
-new_node->n = n;
+new_node->n;
 *head = new_node;
 return (0);
 }
