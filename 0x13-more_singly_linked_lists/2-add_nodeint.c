@@ -19,7 +19,10 @@ new_node = malloc(sizeof(listint_t));
 if (new_node == NULL)
 return (NULL);
 if (*head == NULL)
+{
 new_node->next = NULL;
+new_node->n = n;
+}
 else
 new_node->next = *head;
 new_node->n = n;
