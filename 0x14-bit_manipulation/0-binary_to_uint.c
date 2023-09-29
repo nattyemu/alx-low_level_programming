@@ -15,7 +15,7 @@ for (j = 0; b[j]; j++)
 {
 if (b[j] < '0' || b[j] > '1')
 return (0);
-val = 2 * val + (b[j] = '0');
+val = 2 * val + (b[j] - '0');
 }
 return (val);
 }
